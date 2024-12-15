@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from ultralytics import YOLO  # Replace with the YOLO version you're using
 
-# Caching the model loading to optimize performance
+# Caching the modgel loading to optimize performance
 @st.cache_resource
 def load_model():
     # Replace "path/to/your/trained/model.pt" with your actual model path
